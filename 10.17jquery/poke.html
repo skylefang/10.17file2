@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扑克游戏</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/poke.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    html,body{
+        width: 100%;
+        height:100%;
+    }
+    body{
+        overflow: hidden;
+        background: url("img/beijing.jpg") center/cover;
+    }
+    .zhuozi{
+        width: 700px;
+        height: 600px;
+        margin: 0 auto;
+        /*background: #0FA7F7;*/
+        position: relative;
+    }
+    .poke{
+        width:90px;
+        height: 140px;
+        position: absolute;
+        left: 300px;
+        top:0;
+        background-position: center;
+        background-size: cover;
+        /*background-color: #63a35c;*/
+        opacity: 0;
+    }
+</style>
+<body>
+<div class="zhuozi"></div>
+</body>
+</html>
